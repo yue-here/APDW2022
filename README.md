@@ -15,6 +15,10 @@ Our aims for this session:
   * Save an animation
   * Perform some common operations on the data
 
+### Getting the tutorial files
+We will use github to download the tutorial files. Open a terminal window and navigate to the folder where you want to download the files. Then run `git clone https://github.com/yue-here/APDW2022`.
+
+Alternatively, you can download the repository manually from the website and extract it to a folder of your choosing, from where you will launch your terminal in the next step. (In general, we recommend you use a directory with no spaces, as they can cause troubles in some cases.)
 
 ### Setting up python
 Python is a programming language. Packages are pieces of code people have written that you can then install and use.
@@ -32,9 +36,6 @@ While Anaconda's base environment is fine for our purposes, we will create a new
 
 This will recreate an environment previously tested for this tutorial from the file `APDW.yml`. To start working in the environment, type:
 `$ conda activate APDW2022`
-
-### Getting the tutorial files
-We will use github to download the tutorial files. Open a terminal window and navigate to the folder where you want to download the files. Then run `git clone https://github.com/yue-here/APDW2022`.
 
 ### Starting jupyter
 Once anaconda is installed, we start jupyter through the anaconda navigator. We will use jupyter lab - start it by clicking on the jupyter lab icon or running `jupyter lab` in a terminal.
