@@ -37,6 +37,9 @@ While Anaconda's base environment is fine for our purposes, we will create a new
 This will recreate an environment previously tested for this tutorial from the file `APDW.yml`. To start working in the environment, type:
 `$ conda activate APDW2022`
 
+You'll also need to install the ffdmpeg package in order to create an animation during the tutorial. Note that this will only install inside the APDW2022 environment.
+`$conda install ffmpeg`
+
 ### Starting jupyter
 Once anaconda is installed, we start jupyter through the anaconda navigator. We will use jupyter lab - start it by clicking on the jupyter lab icon or running `jupyter lab` in a terminal.
 
