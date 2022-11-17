@@ -32,9 +32,9 @@ If you want to learn more - read [this](https://geohackweek.github.io/Introducto
 Here, we will install Anaconda - get it directly from https://www.anaconda.com/.
 
 _OPTIONAL: (currently not working on all systems) While Anaconda's base environment is fine for our purposes, it is good practice to use different conda environments to compartmentalise different project. We will create a new environment for this tutorial. Open a terminal (anaconda prompt in Windows, or you can do it through the anaconda navigator 'environments' tab) in the base tutorial folder and type:
-`$ conda env create -f APDW.yml`
+`$ conda env create -f APDW.yml`_
 
-This will recreate an environment previously tested for this tutorial from the file `APDW.yml`. To start working in the environment, type:
+_This will recreate an environment previously tested for this tutorial from the file `APDW.yml`. To start working in the environment, type:
 `$ conda activate APDW2022`_
 
 You'll also need to install the ffmpeg package in order to create an animation during the tutorial. Note that this will only install inside the APDW2022 environment. Note: the pip package ffmpeg is not the one you want!
